@@ -1,0 +1,34 @@
+/* blog styles */
+
+div.post {
+  background-color: #d3d3d3ce;
+  height: 550px;
+  color: rgb(27, 22, 22);
+}
+
+div.post h2 {
+  margin: 10px 0 0;
+  font-size: 1.4rem;
+}
+
+div.image {
+  display: flex;
+}
+
+.travel-img {
+  border-radius: 2%;
+  margin: auto;
+}
+
+div .post p.info {
+  color: #888;
+  font-size: 0.7rem;
+  font-weight: bold;
+  margin: 6px 0;
+  display: flex;
+  gap: 10px;
+}
+
+div.post p.info a.author {
+  color: #333;
+}

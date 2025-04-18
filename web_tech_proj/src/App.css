@@ -1,0 +1,148 @@
+/* global styles */
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+main {
+  max-width: 100%;
+  margin: 0 auto;
+  background-color: #dcdcdc;
+}
+
+/* login styles */
+form {
+  padding: 20px 120px;
+  position: relative;
+  border-radius: 10px;
+  margin: 10px auto 60px;
+}
+
+form.login,
+form.register {
+  max-width: 800px;
+}
+
+form input {
+  border: 1px solid rgba(252, 252, 252, 0.4);
+  width: 100%;
+  border-radius: 5px;
+  font-family: "Source Sans Pro", sans-serif;
+  padding: 10px 15px;
+  margin: 0 auto 10px auto;
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  background-color: #c7c7c7;
+}
+
+form.login h1,
+form.register h1 {
+  text-align: center;
+  padding: 30px;
+}
+
+Button {
+  width: 100%;
+}
+
+/* video styles */
+.vid-container {
+  width: 100%;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+
+.text-container h1 {
+  font-size: 4rem;
+  margin: 30px;
+  letter-spacing: 6px;
+  font-weight: bolder;
+}
+
+.text-container button {
+  background-color: transparent;
+  margin: 40px auto;
+  color: white;
+  border: solid 1px white;
+  padding: 10px;
+}
+
+.vid-container video {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.vid-shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.8) 61%,
+    rgba(204, 204, 204, 0.7) 100%
+  );
+}
+
+/* card styles */
+#card {
+  background-color: #d3d3d3ce;
+  border: none;
+}
+
+/* create post styles */
+.quill {
+  height: 200px;
+}
+
+/* Media queries for smaller screens */
+@media (max-width: 1000px) {
+  .text-container h1 {
+    font-size: 2rem;
+    margin: 10px;
+  }
+
+  .text-container h2 {
+    font-size: 1.5rem;
+    margin: 15px 0;
+  }
+
+  .text-container button {
+    margin: 20px auto;
+  }
+}
+
+/* media queries for smaller screens */
+@media (max-width: 580px) {
+  .text-container h1 {
+    font-size: 1.4rem;
+    margin: 0;
+    letter-spacing: 3px;
+  }
+
+  .text-container h2 {
+    font-size: 1rem;
+  }
+
+  .text-container button {
+    font-size: 0.7rem;
+    margin: auto;
+  }
+}
