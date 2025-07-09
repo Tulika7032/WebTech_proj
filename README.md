@@ -12,8 +12,6 @@ Login & Signup: Secure user authentication to enable users to create an account 
 
 Blog Section: Allows users to read travel experiences share by others and write their own blog posts.
 
-Search Functionality: Allows users to search for blog posts or destinations.
-
 Technologies Used:
 
 Frontend:
