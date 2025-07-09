@@ -12,13 +12,18 @@ Login & Signup: Secure user authentication to enable users to create an account 
 
 Blog Section: Allows users to read travel experiences share by others and write their own blog posts.
 
+Search Functionality: Allows users to search for blog posts or destinations.
+
 Technologies Used:
 
 Frontend:
    HTML, CSS, React.js
    
 Backend(API):
-  Node.js, Express.js, MongoDB with Mongoose 
+  Node.js, Express.js
+
+Database:
+  MongoDB with Mongoose 
 
 
 
