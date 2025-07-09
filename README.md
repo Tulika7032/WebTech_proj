@@ -1,17 +1,17 @@
 Tours and Travels - Web tecnologies
-THis is a web application created by using MERN stack which allow users to explore travel experiences and share their experiences with other interested users.
+This web application was built using the MERN stack and is desgined to offer users an interactive space to explore travel experiences shared by others, search for destinations, and contribute their own travel stories. The application is designed with a user-friendly interface and navigation to enhance the overall user experience.
 
 Featurs include:
-Home page: Lets users see and gain info about travel blog posts
-About page: Learn about the creators of the blog
-Login & Register: create an account or log in 
-Blog: read other users travel experiences 
+Landing page: Welcomes users to the platform and provides a preview of travel blog posts 
+About page: Introduces the creators of the blog and explains the purpose of the application.
+Login & Signup: Secure user authentication to enable users to create an account or login to post and read blogs 
+Blog Section: Allows users to read travel experiences share by others and write their own blog posts
 
 Technologies Used:
 Frontend:
-   HTML, CSS, React
+   HTML, CSS, React.js
 Backend(API):
-  Node.js, Express.js, MongoDB
+  Node.js, Express.js, MongoDB with Mongoose 
 
 
 
